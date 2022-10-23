@@ -50,5 +50,13 @@
 ​		F. true (no conversion here. Boolean(2) returns true, and true == true)
 
 15. The == does auto conversion to let the types to be the same before comparing. The === does not do so.
+16. See part2-quetion16.js
+17. The result would be [2, 4, 6]. The function uses the parameter [1, 2, 3] as `array` and `doSomething` as the `callback` function. The `doSomething` simply returns two times the value of its parameter `num`. In `modifyArray`, `array` is iterated once, and each element of it is passed to `doSomething` and then pushed to `newArr`. In the end `newArray` is returned.
+18. See part2-quetion18.js
+19.  1
 
-17. The result would be [2, 4, 6]. The function uses the parameter [1, 2, 3] as `array` and `doSomething` as the `callback` function. The `doSomething` simply returns two times the value of its parameter `num`. In modifyArray, `array` is iterated once, and each element of it is passed to `doSomething` and then pushed to `newArr`. In the end `newArray` is returned.
+​		4
+
+​		3
+
+​		2
